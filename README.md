@@ -8,8 +8,10 @@ Almost always greater than 10. 11/10, 12/10, 13/10, etc. Why? Because <a href="h
 WeRateDogs has over 4 million followers and has received international media coverage.
 
 <h2>WeRateDog twitter handle data wrangling and analysis</h2>
-- wrangling involved web scraping with #twitterApi including dowloadable file provided Udacity.
-- Analysis and visualization utilized python, pandas, matplotlib, seaborn, numpy......
+<ul>
+  <li>wrangling involved web scraping with twitterApi including dowloadable file provided by Udacity.</li>
+  <li>Analysis and visualization utilized python, pandas, matplotlib, seaborn, numpy......</li>
+</ul>
 There were three (3) different dataFrames needed to carry out this ananlysis; twitter_archive_enhanced csv file, image_prediction tsv file and tweet_jason txt file. Udacity provided the twitter_archive as a downloadable file. Using the requests module together with the link provided by Udacity, i used the get function to download the image prediction file and then register for twitter students developer account for assess keys that was used to query twitter API for the jason file containing each tweet's retweet_count and favorites count.
 
 <h2>Summary</h2>
